@@ -7,9 +7,9 @@ Please run "extractWormBody_interface_V1.m" to have a clear idea how it works. A
 
 ![alt text](https://github.com/aimerykong/simpleUI_wormAnnotation/blob/master/dataset/img005.tif_tif2jpg.jpg "output")
 
-step-1: roughly click the center of a worm, then a zoom-in window pops out;
-step-2: click the worm tips (i.e. head and tail, order does not matter), then a line is drawn along the worm body;
-step-3: double check by visualization, if the line is a good fit for the target worm, click "Yes"; if not, manually click ten parts which are expected to uniformly distribute on the body, then a line connecting the parts is draw to fit the worm. If the line is not good, or user mis-click somewhere, click "cancel" button to return the main image
+1. step-1: roughly click the center of a worm, then a zoom-in window pops out;
+2. step-2: click the worm tips (i.e. head and tail, order does not matter), then a line is drawn along the worm body;
+3. step-3: double check by visualization, if the line is a good fit for the target worm, click "Yes"; if not, manually click ten parts which are expected to uniformly distribute on the body, then a line connecting the parts is draw to fit the worm. If the line is not good, or user mis-click somewhere, click "cancel" button to return the main image
 
 All the steps are repeated ten times, meaning 10 worms are expected to annotate for one run.
 
